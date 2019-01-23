@@ -1,0 +1,13 @@
+appId: com.electron.test
+productName: Electron Test Application
+artifactName: ${productName}-${version}-${os}.${ext}
+copyright: Copyright © 2019
+
+nsis:
+  allowToChangeInstallationDirectory: false
+  oneClick: true
+
+win:
+  target:
+    - nsis
+  icon: build/icons/icon.ico
